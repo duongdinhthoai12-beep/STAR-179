@@ -107,9 +107,9 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs  = {
- local Tab1o = MakeTab({Name = "animation"})
- local Tab2o = MakeTab({Name = "lệnh"})
- local Tab3o = MakeTab({Name = "forsaken"})
+local Tab1o = MakeTab({Name = "animation"})
+local Tab2o = MakeTab({Name = "lệnh"})
+local Tab3o = MakeTab({Name = "forsaken"})
 
 AddButton(Tab1o, {
     Name = "gojo",
@@ -194,7 +194,7 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-MOD-GOKU
    end
 })
 AddButton(Tab2o,{
-    Name = "tàng hình 
+    Name = "tàng hình"
     Callback = function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ymkeee/ArbizHub/refs/heads/main/Invisible.lua'))()
