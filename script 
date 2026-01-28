@@ -129,13 +129,12 @@ Tabs.Animation:AddButton({
 
 Tabs.Animation:AddButton({
     Title = "Gojo v2",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/SCRIPTSBYVEUX/refs/heads/main/LALALALALALAGOJOOO.lua.txt"))()
+    Callback = function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/SCRIPTSBYVEUX/refs/heads/main/LALALALALALAGOJOOO.lua.txt"))()
     end
 })
 
 Tabs.Animation:AddButton({
-    Title = "Gojo v2",
+    Title = "Gojo v3",
     Callback = function()
      loadstring(game:HttpGet("https://pastefy.app/ibr9Vh52/raw"))()
 end
@@ -204,6 +203,8 @@ Tabs.Lenh:AddButton({
     Callback = function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ymkeee/ArbizHub/refs/heads/main/Invisible.lua'))()
+end
+})
 
 Tabs.Lenh:AddButton({
     Title = "stamina",
@@ -282,7 +283,7 @@ Tabs.Lenh:AddButton({
   end
 })
 Tabs.Lenh:AddButton({
-    Title = flashBack",
+    Title = "flashBack",
     Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MSTTOPPER/Scripts/refs/heads/main/FlashBack"))()
@@ -298,20 +299,23 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ScpGuest666/Random-Ro
 Tabs.Lenh:AddButton({
     Title = "not troll",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/amdzy088/Immune-slap-tower-/refs/heads/main/Immune%20slap%20tower%20work"))()
+loadstring(game:HttpGet(
+
+"https://raw.githubusercontent.com/amdzy088/Immune-slap-tower-/refs/heads/main/Immune%20slap%20tower%20work"))()
   end
 })
 
 Tabs.Lenh:AddButton({
     Title = "to nhỏ",
-    Callback = function()
- loadstring(game:HttpGet("https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/to-nh%E1%BB%8F"))() 
+    Callback = function() loadstring(game:HttpGet(
+"https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/to-nh%E1%BB%8F"))() 
 end
 })
 Tabs.Lenh:AddButton({
     Title = "hồi sinh tại chỗ",
-    Callback = function()
-        loadstring(game:HttpGet("https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/h%E1%BB%93i%20sinh"))()
+    Callback = function() loadstring(game:HttpGet(
+
+"https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/h%E1%BB%93i%20sinh"))()
 end
 })
 Tabs.Lenh:AddButton({
