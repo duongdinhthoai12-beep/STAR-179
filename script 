@@ -307,13 +307,13 @@ loadstring(game:HttpGet(
 Tabs.Lenh:AddButton({
     Title = "to nhỏ",
     Callback = function() loadstring(game:HttpGet(
-"https://raw.githubusercontent.com/duongdinhthoai12-beep/H-ng-d-n-/main/to-nho"))() 
+"https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/to-nh%E1%BB%8F"))() 
 end
 })
 Tabs.Lenh:AddButton({
     Title = "hồi sinh tại chỗ",
     Callback = function() loadstring(game:HttpGet(
-"https://raw.githubusercontent.com/duongdinhthoai12-beep/H-ng-d-n-/main/hoi sinh"))()
+"https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/h%E1%BB%93i%20sinh))()
 end
 })
 Tabs.Lenh:AddButton({
