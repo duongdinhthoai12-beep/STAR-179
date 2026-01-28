@@ -300,7 +300,6 @@ Tabs.Lenh:AddButton({
     Title = "not troll",
     Callback = function()
 loadstring(game:HttpGet(
-
 "https://raw.githubusercontent.com/amdzy088/Immune-slap-tower-/refs/heads/main/Immune%20slap%20tower%20work"))()
   end
 })
@@ -308,14 +307,13 @@ loadstring(game:HttpGet(
 Tabs.Lenh:AddButton({
     Title = "to nhỏ",
     Callback = function() loadstring(game:HttpGet(
-"https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/to-nh%E1%BB%8F"))() 
+"https://raw.githubusercontent.com/duongdinhthoai12-beep/H-ng-d-n-/main/to-nhỏ"))() 
 end
 })
 Tabs.Lenh:AddButton({
     Title = "hồi sinh tại chỗ",
     Callback = function() loadstring(game:HttpGet(
-
-"https://github.com/duongdinhthoai12-beep/H-ng-d-n-/blob/main/h%E1%BB%93i%20sinh"))()
+"https://raw.githubusercontent.com/duongdinhthoai12-beep/H-ng-d-n-/main/hồi sinh"))()
 end
 })
 Tabs.Lenh:AddButton({
