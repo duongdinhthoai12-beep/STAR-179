@@ -326,52 +326,87 @@ Tabs.Lenh:AddButton({
 loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-aimbot-npc-script-29375"))()
   end
 })
-Tabs.private:AddButton({
-    Title = "guest 1337",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi399/Auto-block-script/refs/heads/main/FINAL%20AUTO%20BLOCK"))()
-  end
-})
+local PlaceId = game.PlaceId
 
-Tabs.private:AddButton({
-    Title = "John doe",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi399/John-doe-auto-parry-404/refs/heads/main/Script"))()
-  end
-})
-Tabs.private:AddButton({
-    Title = "noli",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi399/noli-void-rush-control/refs/heads/main/scripr"))()
-  end
-})
-Tabs.private:AddButton({
-    Title = "two time",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi399/Auto-backstab-two-time/refs/heads/main/Auto%20backstab%20v2"))()
-  end
-})
-Tabs.private:AddButton({
-    Title = "7n7",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NumanTF3/invis-7n7-upon-clone/refs/heads/main/main.lua"))()
-  end
-})
-Tabs.private:AddButton({
-    Title = "chance",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/skibidi399/Chance-aimbot/refs/heads/main/Chance%20aimbot%20v2"))()
-  end
-})
-Tabs.private:AddButton({
-    Title = "forsaken",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NgKhaiVN/Roblox/refs/heads/main/FORSAKEN/stamina.lua"))()
-  end
-})
-Tabs.private:AddButton({
-    Title = "god 99 day",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/DATABASE/refs/heads/main/99%20Nights%20in%20the%20Forest/Infinite%20Health.lua"))()
-  end
-})
+-- ===== FORSAKEN =====
+if PlaceId == 18687417158 then
+
+    Tabs.private:AddButton({
+        Title = "Guest 1337",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/skibidi399/Auto-block-script/refs/heads/main/FINAL%20AUTO%20BLOCK"
+            ))()
+        end
+    })
+
+    Tabs.private:AddButton({
+        Title = "John Doe",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/skibidi399/John-doe-auto-parry-404/refs/heads/main/Script"
+            ))()
+        end
+    })
+
+    Tabs.private:AddButton({
+        Title = "Noli",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/skibidi399/noli-void-rush-control/refs/heads/main/scripr"
+            ))()
+        end
+    })
+
+    Tabs.private:AddButton({
+        Title = "Two Time",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/skibidi399/Auto-backstab-two-time/refs/heads/main/Auto%20backstab%20v2"
+            ))()
+        end
+    })
+
+    Tabs.private:AddButton({
+        Title = "7n7",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/NumanTF3/invis-7n7-upon-clone/refs/heads/main/main.lua"
+            ))()
+        end
+    })
+
+    Tabs.private:AddButton({
+        Title = "Chance",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/skibidi399/Chance-aimbot/refs/heads/main/Chance%20aimbot%20v2"
+            ))()
+        end
+    })
+
+    Tabs.private:AddButton({
+        Title = "Forsaken (Stamina)",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/NgKhaiVN/Roblox/refs/heads/main/FORSAKEN/stamina.lua"
+            ))()
+        end
+    })
+
+end
+
+
+-- ===== 99 NIGHTS IN THE FOREST (99 DAY) =====
+if PlaceId == 79546208627805 then
+
+    Tabs.private:AddButton({
+        Title = "God 99 Day",
+        Callback = function()
+            loadstring(game:HttpGet(
+                "https://raw.githubusercontent.com/ProBaconHub/DATABASE/refs/heads/main/99%20Nights%20in%20the%20Forest/Infinite%20Health.lua"
+            ))()
+        end
+    })
+
+end
